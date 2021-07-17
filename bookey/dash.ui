@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dash</class>
+ <widget class="QWidget" name="dash">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="bookTable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>531</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>编号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>书名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>简介</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>个人信息</string>
+   </property>
+   <widget class="QTextBrowser" name="idView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="nameView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>90</y>
+     <width>171</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>拥有书目</string>
+   </property>
+   <widget class="QTableWidget" name="mybook">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>151</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>编号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>书名</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="bor">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>10</y>
+     <width>75</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>借书</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ret">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>240</y>
+     <width>75</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>还书</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

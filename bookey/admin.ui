@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QWidget" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>711</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>书籍</string>
+   </property>
+   <widget class="QTableWidget" name="book">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>451</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>编号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>书名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>状态</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>简介</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="name">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>231</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>编号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="addbook">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>30</y>
+     <width>101</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加图书</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delbook">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>260</y>
+     <width>101</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除图书</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
